@@ -2,6 +2,7 @@
 
 export default function Navbar(){
 
+    // Navbar for the component
     return(
 
         <nav className="h-14 bg-purple-700 flex items-center">

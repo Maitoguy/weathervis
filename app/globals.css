@@ -2,4 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom css for scrollbar and chart */
+.scrollBar{
+    scrollbar-width: thin;
+    scrollbar-color: #F0F4F8 #4A6572;
+}
 
+.chart-container {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
